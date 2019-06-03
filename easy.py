@@ -7,8 +7,8 @@ from lzmcore import *
 
 def main():
 	banner()
-	print "   [1] Information Gathering\n"
-	print "   [2] Exit the Lazymux\n"
+	print "   [01] Information Gathering"
+	print "   [02] Exit the Lazymux\n"
 	lazymux = raw_input("lzmx > ")
 	
 	if lazymux == "01" or lazymux == "1":
