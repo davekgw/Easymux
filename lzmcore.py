@@ -827,9 +827,6 @@ def snitch():
 
 def chatting():
 	print '\n###### Installing SpamChatting'
-	os.system('apt update && apt upgrade')
-	os.system('apt install git python2')
-	os.system('pip2 install requests')
 	os.system('git clone https://github.com/davekgw/chatting')
 	os.system('mv chatting ~')
 	print '###### Done'
