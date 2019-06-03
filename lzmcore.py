@@ -12,7 +12,8 @@ lazymux_banner = """
 : :__ ' .; ; `-'_.': :; :: ,. ,. :: :; :`.  .'
 :___.'`.__,_;`.___;`._. ;:_;:_;:_;`.__.':_,._;
                     .-. :                     
-                    `._.'                     
+                    `._.'  
+By : Dave Koagow                   
 """
 backtomenu_banner = """
   [99] Back to main menu
