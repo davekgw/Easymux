@@ -13,7 +13,7 @@ def main():
 	
 	if lazymux == "01" or lazymux == "1":
 		print "    [01] OSIF"
-                print "    [02] GPS_Tracking
+                print "    [02] GPS_Tracking"
                 print "    [03] SpamChat\n"
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("lzmx > ")
