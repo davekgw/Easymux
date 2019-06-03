@@ -52,8 +52,8 @@ def osif():
 	os.system('apt update && apt upgrade')
 	os.system('apt install git python2')
 	os.system('pip2 install requests')
-	os.system('git clone https://github.com/ciku370/OSIF')
-	os.system('mv OSIF ~')
+	os.system('git clone https://github.com/davekgw/osiff')
+	os.system('mv Osiff ~')
 	print '###### Done'
 	backtomenu_option()
 
@@ -65,6 +65,6 @@ def gps():
         os.system('pip2 install mechanize')
         os.system('pip2 install request')
 	os.system('git clone https://github.com/davekgw/gps_tracking')
-	os.system('mv chatting ~')
+	os.system('mv Gps_Tracking ~')
 	print '###### Done'
 	backtomenu_option()
