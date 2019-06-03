@@ -39,7 +39,8 @@ def main():
 		print "    [18] Xshell"
 		print "    [19] OWScan"
 		print "    [20] OSIF"
-                print "    [21] chatting\n"
+                print "    [21] GPS_Tracking
+                print "    [22] SpamChat\n"
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("lzmx > ")
 		
@@ -84,7 +85,9 @@ def main():
 		elif infogathering == "20":
 			osif()
 		elif infogathering == "21":
-			chatting()
+			gps()
+		elif infogathering == "22":
+			spamchat()
 		elif infogathering == "00" or infogathering == "0":
 			restart_program()
 		else:
