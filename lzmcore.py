@@ -60,7 +60,7 @@ def osif():
 def gps():
 	print '\n###### Installing GPS_Tracking'
 	os.system('apt update && apt upgrade')
-	os.system('pkg install python2 git wget')
+	os.system('pkg install python2 git php wget')
         os.system('pip2 install --upgrade pip')
         os.system('pip2 install mechanize')
         os.system('pip2 install request')
