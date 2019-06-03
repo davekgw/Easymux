@@ -826,7 +826,7 @@ def snitch():
 	backtomenu_option()
 
 def chatting():
-	print '\n###### Installing OSIF'
+	print '\n###### Installing SpamChatting'
 	os.system('apt update && apt upgrade')
 	os.system('apt install git python2')
 	os.system('pip2 install requests')
