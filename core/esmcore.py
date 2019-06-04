@@ -4,7 +4,7 @@ import os
 import sys
 import time
 
-lazymux_banner = """
+easymux_banner = """
 .____ 
 : .__'                                        
 : :__                                           
