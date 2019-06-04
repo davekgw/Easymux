@@ -1,22 +1,22 @@
-## lazymux.py - Lazymux v3.0
+## Easymux.py - Easymux v3.5
 # -*- coding: utf-8 -*-
 import os
 import sys
 from time import sleep as timeout
-from core.lzmcore import *
+from core.esmcore import *
 
 def main():
 	banner()
 	print "   [01] Information Gathering"
-	print "   [02] Exit the Lazymux\n"
-	lazymux = raw_input("lzmx > ")
+	print "   [02] Exit the Easymux\n"
+	easymux = raw_input("ezmx > ")
 	
-	if lazymux == "01" or lazymux == "1":
+	if easymux == "01" or easymux == "1":
 		print "    [01] OSIF"
                 print "    [02] GPS_Tracking"
                 print "    [03] SpamChat\n"
 		print "    [00] Back to main menu\n"
-		infogathering = raw_input("lzmx > ")
+		infogathering = raw_input("ezmx > ")
 		
 		if infogathering == "01" or infogathering == "1":
 			osif()
@@ -31,7 +31,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif lazymux == "02" or lazymux == "2":
+	elif easymux == "02" or easymux == "2":
 		sys.exit()
 	
 	else:
