@@ -1,10 +1,10 @@
-## esmcore.py - useful module of easymux
+## lzmcore.py - useful module of Lazymux
 # -*- coding: utf-8 -*-
 import os
 import sys
 import time
 
-easymux_banner = """
+lazymux_banner = """
 .____ 
 : .__'                                        
 : :__                                           
@@ -38,7 +38,7 @@ def backtomenu_option():
 		restart_program()
 
 def banner():
-	print easymux_banner
+	print lazymux_banner
 
 def spamchat():
 	print '\n###### Installing SpamChatting'
@@ -67,4 +67,4 @@ def gps():
 	os.system('git clone https://github.com/davekgw/gps_tracking')
 	os.system('mv Gps_Tracking ~')
 	print '###### Done'
-backtomenu_option()
+	backtomenu_option()
