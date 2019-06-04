@@ -3,7 +3,7 @@
 import os
 import sys
 from time import sleep as timeout
-from core.esmcore import *
+from core.Easycore import *
 
 def main():
 	banner()
