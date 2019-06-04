@@ -1,4 +1,4 @@
-## lzmcore.py - useful module of Lazymux
+## esmcore.py - useful module of easymux
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -17,7 +17,7 @@ By : Dave Koagow
 """
 backtomenu_banner = """
   [99] Back to main menu
-  [00] Exit the Lazymux
+  [00] Exit the Easymux
 """
 def restart_program():
 	python = sys.executable
@@ -26,7 +26,7 @@ def restart_program():
 
 def backtomenu_option():
 	print backtomenu_banner
-	backtomenu = raw_input("lzmx > ")
+	backtomenu = raw_input("esmx > ")
 	
 	if backtomenu == "99":
 		restart_program()
@@ -38,7 +38,7 @@ def backtomenu_option():
 		restart_program()
 
 def banner():
-	print lazymux_banner
+	print easymux_banner
 
 def spamchat():
 	print '\n###### Installing SpamChatting'
