@@ -9,14 +9,14 @@ def main():
 	banner()
 	print "   [01] Information Gathering"
 	print "   [02] Exit the Easymux\n"
-	easymux = raw_input("ezmx > ")
+	easymux = raw_input("esmx > ")
 	
 	if easymux == "01" or easymux == "1":
 		print "    [01] OSIF"
                 print "    [02] GPS_Tracking"
                 print "    [03] SpamChat\n"
 		print "    [00] Back to main menu\n"
-		infogathering = raw_input("ezmx > ")
+		infogathering = raw_input("esmx > ")
 		
 		if infogathering == "01" or infogathering == "1":
 			osif()
