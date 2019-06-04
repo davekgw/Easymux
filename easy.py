@@ -1,4 +1,4 @@
-## easy.py - Easymux v3.5
+## Lazymux.py - Easymux v3.5
 # -*- coding: utf-8 -*-
 import os
 import sys
