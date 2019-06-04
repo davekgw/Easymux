@@ -1,9 +1,9 @@
-## Easymux.py - Easymux v3.5
+## easy.py - Easymux v3.5
 # -*- coding: utf-8 -*-
 import os
 import sys
 from time import sleep as timeout
-from core.lzmcore.py import *
+from core.lzmcore import *
 
 def main():
 	banner()
