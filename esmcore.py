@@ -109,3 +109,14 @@ def downweb():
 	os.system('mv DownWeb ~')
 	print '###### Done'
 	backtomenu_option()
+
+def force():
+        print '\n###### Installing MBForce'
+        os.system('apt update && apt upgrade')
+        os.system('pkg install python2 git wget')
+        os.system('pip2 install --upgrade pip')
+        os.system('pip2 install mechanize requests request')
+        os.system('git clone https://github.com/davekgw/Force')
+        os.system('mv Force')
+        print '###### Done'
+        backtomenu_option()
