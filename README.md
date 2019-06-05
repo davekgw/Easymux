@@ -9,4 +9,6 @@ $ pkg install --upgrade pip
 
 $ git clone https://github.com/davekgw/Easymux
 
+$ pip2 install -r requirements.txt
+
 $ cd Easymux && chmod +x easy.py && python2 easy.py
