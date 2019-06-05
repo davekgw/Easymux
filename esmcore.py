@@ -1,10 +1,10 @@
-## lzmcore.py - useful module of Lazymux
+## esmcore.py - useful module of Easymux
 # -*- coding: utf-8 -*-
 import os
 import sys
 import time
 
-lazymux_banner = """
+easymux_banner = """
 .____ 
 : .__'                                        
 : :__                                           
@@ -38,7 +38,7 @@ def backtomenu_option():
 		restart_program()
 
 def banner():
-	print lazymux_banner
+	print easymux_banner
 
 def spamchat():
 	print '\n###### Installing SpamChatting'
