@@ -9,7 +9,7 @@ def main():
 	banner()
 	print "   [01] Tool For Get_Information(1)"
         print "   [02] Tool Facebook(3)"
-        print "   [03] Tool Web(1)\n"
+        print "   [03] Tool Web(2)\n"
 	print "   [00] Exit the Easymux\n"
 	easymux = raw_input("Easymux > ")
 	
@@ -48,12 +48,15 @@ def main():
 			restart_program()
 
 	elif easymux == "03" or easymux == "3":
-                print "    [01] Web_Deface\n"
+                print "    [01] Web_Deface"
+                print "    [02] DownWeb\n"
                 print "    [00] Back to main menu\n"
                 web = raw_input("ToolWeb > ")
                 
                 if web == "01" or web == "1":
 			webdef()
+                elif web == "02" or web == "2":
+                        downweb()
                 elif web == "00" or web == "0":
 			restart_program()
                 else:
