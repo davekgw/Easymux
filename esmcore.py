@@ -13,7 +13,7 @@ easymux_banner = """
 :___.'`.__,_;`.___;`._. ;:_;:_;:_;`.__.':_,._;
                     .-. :                     
                     `._.'  
-By : Dave Koagow                   
+This is Script By : Dave Koagow                   
 """
 backtomenu_banner = """
   [99] Back to main menu
@@ -93,5 +93,15 @@ def webdef():
 	os.system('pip2 install --upgrade pip')
 	os.system('git clone https://github.com/davekgw/Deface-Web')
 	os.system('mv DefaceWeb ~')
+	print '###### Done'
+	backtomenu_option()
+
+def downweb():
+	print '\n###### Installing DownWebsite'
+	os.system('apt update && apt upgrade')
+	os.system('pkg install git python2')
+	os.system('pip2 install requests')
+	os.system('git clone https://github.com/davekgw/DownWeb')
+	os.system('mv DownWeb ~')
 	print '###### Done'
 	backtomenu_option()
