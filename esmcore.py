@@ -13,7 +13,11 @@ easymux_banner = """
 :___.'`.__,_;`.___;`._. ;:_;:_;:_;`.__.':_,._;
                     .-. :                     
                     `._.'  
-This is Script By : Dave Koagow                   
+All Scripts on this tool 
+MakeBy : Dave Koagow  
+
+Tool ini tidak di perjual belikan   
+Tool ini dibuat sendiri oleh author            
 """
 backtomenu_banner = """
   [99] Back to main menu
