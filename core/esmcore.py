@@ -1,4 +1,4 @@
-## esmcore.py - useful module of easy.py
+## esmcore.py - useful module of Easymux
 # -*- coding: utf-8 -*-
 import os
 import sys
@@ -13,7 +13,8 @@ easymux_banner = """
 :___.'`.__,_;`.___;`._. ;:_;:_;:_;`.__.':_,._;
                     .-. :                     
                     `._.'  
-By : Dave Koagow                   
+By : Dave Koagow 
+                  
 """
 backtomenu_banner = """
   [99] Back to main menu
