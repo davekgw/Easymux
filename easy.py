@@ -19,8 +19,7 @@ def main():
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("Info > ")
 		
-
-		elif infogathering == "01" or infogathering == "1":
+		if infogathering == "01" or infogathering == "1":
 			osif()
 		elif infogathering == "02" or infogathering == "2":
 			gps()
@@ -37,7 +36,7 @@ def main():
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
 
-                elif toolfb == "01" or toolfb == "1":
+                if toolfb == "01" or toolfb == "1":
 			spamchat()
                 elif toolfb == "02" or toolfb == "2":
 			unfriend()
