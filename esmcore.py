@@ -42,6 +42,10 @@ def banner():
 
 def spamchat():
 	print '\n###### Installing SpamChatting'
+	os.system('apt update && apt upgrade')
+	os.system('pkg install python2 git')
+	os.system('pip2 install requests')
+	os.system('pip2 install mechanize')
 	os.system('git clone https://github.com/davekgw/chatting')
 	os.system('mv chatting ~')
 	print '###### Done'
@@ -65,6 +69,29 @@ def gps():
         os.system('pip2 install mechanize')
         os.system('pip2 install request')
 	os.system('git clone https://github.com/davekgw/gps_tracking')
-	os.system('mv Gps_Tracking ~')
+	os.system('mv GpsTracking ~')
+	print '###### Done'
+	backtomenu_option()
+
+def unfriend():
+	print '\n###### Installing UnFriendFB'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('pip2 install requests')
+        os.system('pip2 install mechanize')
+	os.system('git clone https://github.com/davekgw/UnFriendFB')
+	os.system('mv UnFriendFB ~')
+	print '###### Done'
+	backtomenu_option()
+
+def webdef():
+	print '\n###### Installing Web_Deface'
+	os.system('apt update && apt upgrade')
+	os.system('apt install git python2')
+	os.system('pip2 install requests')
+	os.system('pip2 install mechanize')
+	os.system('pip2 install --upgrade pip')
+	os.system('git clone https://github.com/davekgw/Deface-Web')
+	os.system('mv DefaceWeb ~')
 	print '###### Done'
 	backtomenu_option()
