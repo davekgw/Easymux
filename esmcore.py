@@ -1,4 +1,4 @@
-## esmcore.py - useful module of Easymux
+## esmcore.py - useful module of easy.py
 # -*- coding: utf-8 -*-
 import os
 import sys
