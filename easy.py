@@ -32,7 +32,8 @@ def main():
 
         elif easymux == "02" or easymux == "2":
                 print "    [01] SpamChat"
-                print "    [02] UnFriendFB\n"
+                print "    [02] UnFriendFB"
+                print "    [03] MultiBruteForce\n"
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
 
@@ -40,6 +41,8 @@ def main():
 			spamchat()
                 elif toolfb == "02" or toolfb == "2":
 			unfriend()
+                elif toolfb == "03" or toolfb == "2":
+                        force()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
 		else:
