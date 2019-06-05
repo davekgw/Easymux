@@ -8,7 +8,7 @@ from esmcore import *
 def main():
 	banner()
 	print "   [01] Tool For Get_Information(2)"
-        print "   [02] Tool Facebook(2)"
+        print "   [02] Tool Facebook(3)"
         print "   [03] Tool Web(2)\n"
 	print "   [00] Exit the Easymux\n"
 	easymux = raw_input("Easymux > ")
