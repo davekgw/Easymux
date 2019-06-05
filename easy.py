@@ -41,7 +41,7 @@ def main():
 			spamchat()
                 elif toolfb == "02" or toolfb == "2":
 			unfriend()
-                elif toolfb == "03" or toolfb == "2":
+                elif toolfb == "03" or toolfb == "3":
                         force()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
