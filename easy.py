@@ -7,21 +7,18 @@ from esmcore import *
 
 def main():
 	banner()
-	print "   [01] Tool For Get_Information"
-        print "   [02] Tool Facebook"
-        print "   [03] Tool Web\n"
+	print "   [01] Tool For Get_Information(1)"
+        print "   [02] Tool Facebook(3)"
+        print "   [03] Tool Web(1)\n"
 	print "   [00] Exit the Easymux\n"
 	easymux = raw_input("Easymux > ")
 	
 	if easymux == "01" or easymux == "1":
-		print "    [01] OSIF"
-                print "    [02] GPS_Tracking"
+                print "    [01] GPS_Tracking"
 		print "    [00] Back to main menu\n"
 		infogathering = raw_input("Info > ")
 		
 		if infogathering == "01" or infogathering == "1":
-			osif()
-		elif infogathering == "02" or infogathering == "2":
 			gps()
 		elif infogathering == "00" or infogathering == "0":
 			restart_program()
@@ -31,14 +28,17 @@ def main():
 			restart_program()
 
         elif easymux == "02" or easymux == "2":
-                print "    [01] SpamChat"
-                print "    [02] UnFriendFB\n"
+		print "    [01] OSIF"
+                print "    [02] SpamChat"
+                print "    [03] UnFriendFB\n"
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
 
-                if toolfb == "01" or toolfb == "1":
-			spamchat()
+		if toolfb == "01" or toolfb == "1":
+			osif()
                 elif toolfb == "02" or toolfb == "2":
+			spamchat()
+                elif toolfb == "03" or toolfb == "3":
 			unfriend()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
