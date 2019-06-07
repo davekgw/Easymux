@@ -1,0 +1,23 @@
+DownWeb.py
+
+How to use DownWeb look at under
+
+$ apt update && apt upgrade
+
+$ pkg install python2 git 
+
+$ pip2 install --upgrade pip
+
+$ git clone https://github.com/davekgw/DownWeb
+
+$ cd DownWeb
+
+$ python2 webdown.py -s [Ip target] -p [port(def=80)] -t [turbo(def=135)]
+
+-
+
+Port(-p) dan Turbo (-t) bisa di tambahkan sesukamu
+- port (-p)  - default 80 
+             - max 100
+- turbo (-t) - default 135
+             - max 99999999
