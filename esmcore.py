@@ -120,3 +120,13 @@ def force():
         os.system('mv Force')
         print '###### Done'
         backtomenu_option()
+	
+def yclon():
+        print '\n###### Installing YahooCloning'
+        os.system('pkg update && pkg upgrade')
+        os.system('pkg install python2 git')
+        os.system('pip2 install mechanize requests')
+        os.system('git clone https://github.com/davekgw/YahooClone')
+        os.system('mv Clonning')
+        print '###### Done'
+        backtomenu_option()
