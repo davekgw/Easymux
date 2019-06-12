@@ -8,7 +8,7 @@ from esmcore import *
 def main():
 	banner()
 	print "   [01] Tool For Get_Information(2)"
-        print "   [02] Tool Facebook(5)"
+        print "   [02] Tool Facebook(6)"
         print "   [03] Tool Web(3)\n"
 	print "   [00] Exit the Easymux\n"
 	easymux = raw_input("Easymux > ")
@@ -35,7 +35,8 @@ def main():
                 print "    [02] SpamChat"
                 print "    [03] UnFriendFB"
                 print "    [04] MultiBruteForce"
-                print "    [05] YahooCloning\n"
+                print "    [05] YahooCloning"
+		print "    [06] FbBrute\n"
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
                 if toolfb == "01" or toolfb == "1":
@@ -48,6 +49,8 @@ def main():
                         force()
                 elif toolfb == "05" or toolfb == "5":
                         yclon()
+		elif toolfb == "06" or toolfb == "6":
+			brute()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
 		else:
