@@ -130,3 +130,12 @@ def yclon():
         os.system('mv Clonning')
         print '###### Done'
         backtomenu_option()
+
+def brute():
+        print '\n###### Installing FbBrute'
+        os.system('apt update && apt upgrade')
+        os.system('pkg install python2 git')
+        os.system('git clone https://github.com/davekgw/FbBrute')
+        os.system('mv FbBrute')
+        print '###### Done'
+        backtomenu_option()
