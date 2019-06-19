@@ -58,10 +58,15 @@ def spamchat():
 def osif():
 	print '\n###### Installing OSIF'
 	os.system('apt update && apt upgrade')
+        os.system('clear')
 	os.system('apt install git python2')
+        os.system('clear')
 	os.system('pip2 install requests')
+        os.system('clear')
 	os.system('git clone https://github.com/davekgw/osiff')
-	os.system('mv Osiff ~')
+        os.system('clear')
+	os.system('mv osiff OSIF')
+        os.system('clear')
 	print '###### Done'
 	backtomenu_option()
 
@@ -134,8 +139,11 @@ def yclon():
 def brute():
         print '\n###### Installing FbBrute'
         os.system('apt update && apt upgrade')
+        os.system('clear')
         os.system('pkg install python2 git')
+        os.system('clear')
         os.system('git clone https://github.com/davekgw/FbBrute')
-        os.system('mv FbBrute')
+        os.system('clear')
+        os.system('mv FbBrute Brute')
         print '###### Done'
         backtomenu_option()
