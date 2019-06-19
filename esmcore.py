@@ -5,7 +5,7 @@ import sys
 import time
 
 easymux_banner = """
-.____ 
+\033[1;36m.____ 
 : .__'                                        
 : :__                                           
 : .__' .--.  .---. .-..-.,-.,-.,-..-..-..-.,-.
@@ -13,11 +13,10 @@ easymux_banner = """
 :___.'`.__,_;`.___;`._. ;:_;:_;:_;`.__.':_,._;
                     .-. :                     
                     `._.'  
-All Scripts on this tool 
-MakeBy : Dave Koagow  
+\033[1;33mAll Scripts on this tool 
+\033[1;37mMakeBy : \033[1;31mDave Koagow  
 
-Tool ini tidak di perjual belikan   
-Tool ini dibuat sendiri oleh author            
+\033[1;31mTool ini tidak di perjual belikan!\033[0m
 """
 backtomenu_banner = """
   [99] Back to main menu
