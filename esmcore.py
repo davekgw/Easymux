@@ -5,7 +5,7 @@ import sys
 import time
 
 easymux_banner = """
-\033[1;36m.____ 
+.____ 
 : .__'                                        
 : :__                                           
 : .__' .--.  .---. .-..-.,-.,-.,-..-..-..-.,-.
@@ -13,10 +13,11 @@ easymux_banner = """
 :___.'`.__,_;`.___;`._. ;:_;:_;:_;`.__.':_,._;
                     .-. :                     
                     `._.'  
-\033[1;33mAll Scripts on this tool 
-\033[1;37mMakeBy : \033[1;31mDave Koagow  
+All Scripts on this tool 
+MakeBy : Dave Koagow  
 
-\033[1;31mTool ini tidak di perjual belikan!\033[0m
+Tool ini tidak di perjual belikan   
+Tool ini dibuat sendiri oleh author            
 """
 backtomenu_banner = """
   [99] Back to main menu
@@ -57,15 +58,12 @@ def spamchat():
 def osif():
 	print '\n###### Installing OSIF'
 	os.system('apt update && apt upgrade')
-        os.system('clear')
 	os.system('apt install git python2')
-        os.system('clear')
 	os.system('pip2 install requests')
-        os.system('clear')
 	os.system('git clone https://github.com/davekgw/osiff')
-        os.system('clear')
-	os.system('mv osiff OSIF')
-        os.system('clear')
+	os.system('cd osiff')
+	os.system('chmod osif.py')
+	os.system('python2 osif.py')
 	print '###### Done'
 	backtomenu_option()
 
@@ -138,11 +136,34 @@ def yclon():
 def brute():
         print '\n###### Installing FbBrute'
         os.system('apt update && apt upgrade')
-        os.system('clear')
         os.system('pkg install python2 git')
-        os.system('clear')
         os.system('git clone https://github.com/davekgw/FbBrute')
-        os.system('clear')
-        os.system('mv FbBrute Brute')
+        os.system('mv FbBrute')
         print '###### Done'
         backtomenu_option()
+		
+def theme():
+        print '\n###### Logo'
+        os.system('apt update && apt upgrade')
+		os.system('apt install git')
+        os.system('apt install nano')
+		os.system('apt install figlet')
+		os.system('apt install cowsay')
+		os.system('apt install ruby')
+		os.system('gem install lolcat')
+		os.system('apt install neofetch')
+		os.system('git clone https://github.com/Cabbagec/termux-ohmyzsh')
+		os.system('mv termux-ohmyzsh')
+		print '###### Done'
+		backtomenu_option()
+
+def guard():
+        print '\n###### Profile Guard'
+        os.system('apt upgrade && apt upgrade')
+        os.system('pkg install php')
+        os.system('pkg install python2')
+        os.system('pkg install git')
+        os.system('git clone https://github.com/davekgw/GuardFB')
+        os.system('mv GuardFB fbguard')
+		print '###### Done')
+		backtomenu_option()
