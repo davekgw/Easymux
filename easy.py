@@ -7,9 +7,9 @@ from esmcore import *
 
 def main():
 	banner()
-	print "   [01] Tool For Get_Information(2)"
-        print "   [02] Tool Facebook(6)"
-        print "   [03] Tool Web(3)\n"
+	print "   [01] Tool For Get_Information"
+        print "   [02] Tool Facebook"
+        print "   [03] Tool Web\n"
 	print "   [00] Exit the Easymux\n"
 	easymux = raw_input("Easymux > ")
 	
@@ -36,21 +36,24 @@ def main():
                 print "    [03] UnFriendFB"
                 print "    [04] MultiBruteForce"
                 print "    [05] YahooCloning"
-		print "    [06] FbBrute\n"
+		print "    [06] FbBrute"
+		print "    [07] FB Profile Guard\n"
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
                 if toolfb == "01" or toolfb == "1":
-			osif()
+			            osif()
                 elif toolfb == "02" or toolfb == "2":
-			spamchat()
+			            spamchat()
                 elif toolfb == "03" or toolfb == "3":
-			unfriend()
+			            unfriend()
                 elif toolfb == "04" or toolfb == "4":
                         force()
                 elif toolfb == "05" or toolfb == "5":
                         yclon()
-		elif toolfb == "06" or toolfb == "6":
-			brute()
+		        elif toolfb == "06" or toolfb == "6":
+			            brute()
+                elif toolfb == "07" or toolfb == "7":
+					    guard()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
 		else:
@@ -61,7 +64,8 @@ def main():
 	elif easymux == "03" or easymux == "3":
                 print "    [01] Web_Deface"
                 print "    [02] DownWeb"
-                print "    [03] YahooCloning\n"
+                print "    [03] YahooCloning"
+	        print "    [04] Termux Theme\n"
                 print "    [00] Back to main menu\n"
                 web = raw_input("ToolWeb > ")
                 
@@ -71,6 +75,8 @@ def main():
                         downweb()
                 elif web == "03" or web == "3":
                         yclon()
+				elif web == "04" or web == "4":
+				        theme()
                 elif web == "00" or web == "0":
 			restart_program()
                 else:
