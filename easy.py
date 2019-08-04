@@ -50,10 +50,10 @@ def main():
                         force()
                 elif toolfb == "05" or toolfb == "5":
                         yclon()
-		        elif toolfb == "06" or toolfb == "6":
-			            brute()
+		elif toolfb == "06" or toolfb == "6":
+		        brute()
                 elif toolfb == "07" or toolfb == "7":
-					    guard()
+	                guard()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
 		else:
@@ -75,8 +75,8 @@ def main():
                         downweb()
                 elif web == "03" or web == "3":
                         yclon()
-				elif web == "04" or web == "4":
-				        theme()
+                elif web == "04" or web == "4":
+		        theme()
                 elif web == "00" or web == "0":
 			restart_program()
                 else:
