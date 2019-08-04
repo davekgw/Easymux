@@ -145,17 +145,17 @@ def brute():
 def theme():
         print '\n###### Logo'
         os.system('apt update && apt upgrade')
-		os.system('apt install git')
+	os.system('apt install git')
         os.system('apt install nano')
-		os.system('apt install figlet')
-		os.system('apt install cowsay')
-		os.system('apt install ruby')
-		os.system('gem install lolcat')
-		os.system('apt install neofetch')
-		os.system('git clone https://github.com/Cabbagec/termux-ohmyzsh')
-		os.system('mv termux-ohmyzsh')
-		print '###### Done'
-		backtomenu_option()
+	os.system('apt install figlet')
+	os.system('apt install cowsay')
+	os.system('apt install ruby')
+	os.system('gem install lolcat')
+	os.system('apt install neofetch')
+	os.system('git clone https://github.com/Cabbagec/termux-ohmyzsh')
+	os.system('mv termux-ohmyzsh')
+	print '###### Done'
+	backtomenu_option()
 
 def guard():
         print '\n###### Profile Guard'
@@ -165,5 +165,5 @@ def guard():
         os.system('pkg install git')
         os.system('git clone https://github.com/davekgw/ProfileGuard')
         os.system('mv ProfileGuard')
-		print '###### Done')
-		backtomenu_option()
+	print '###### Done')
+	backtomenu_option()
