@@ -37,7 +37,8 @@ def main():
                 print "    [04] MultiBruteForce"
                 print "    [05] YahooCloning"
 		print "    [06] FbBrute"
-		print "    [07] FB Profile Guard\n"
+		print "    [07] FB Profile Guard
+		print "    [08] Dark Fb\n"
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
                 if toolfb == "01" or toolfb == "1":
@@ -54,6 +55,8 @@ def main():
 		        brute()
                 elif toolfb == "07" or toolfb == "7":
 	                guard()
+                elif toolfb == "08" or toolfb == "8":
+	                dark()
                 elif toolfb == "00" or toolfb == "0":
 			restart_program()
 		else:
