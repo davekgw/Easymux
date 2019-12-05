@@ -17,7 +17,7 @@ def main():
 		print "    [01] OSIF"
                 print "    [02] GPS_Tracking"
 		print "    [00] Back to main menu\n"
-		infogathering = raw_input("Info > ")
+		infogathering = raw_input("ToolInfo > ")
 		
 		if infogathering == "01" or infogathering == "1":
 			osif()
@@ -37,16 +37,16 @@ def main():
                 print "    [04] MultiBruteForce"
                 print "    [05] YahooCloning"
 		print "    [06] FbBrute"
-		print "    [07] FB Profile Guard
+		print "    [07] FB Profile Guard"
 		print "    [08] Dark Fb\n"
 		print "    [00] Back to main menu\n"
 		toolfb = raw_input("ToolFB > ")
                 if toolfb == "01" or toolfb == "1":
-			            osif()
+			osif()
                 elif toolfb == "02" or toolfb == "2":
-			            spamchat()
+			spamchat()
                 elif toolfb == "03" or toolfb == "3":
-			            unfriend()
+			unfriend()
                 elif toolfb == "04" or toolfb == "4":
                         force()
                 elif toolfb == "05" or toolfb == "5":
