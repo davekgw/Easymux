@@ -61,9 +61,7 @@ def osif():
 	os.system('apt install git python2')
 	os.system('pip2 install requests')
 	os.system('git clone https://github.com/davekgw/osiff')
-	os.system('cd osiff')
-	os.system('chmod osif.py')
-	os.system('python2 osif.py')
+	os.system('mv osiff')
 	print '###### Done'
 	backtomenu_option()
 
@@ -165,5 +163,16 @@ def guard():
         os.system('pkg install git')
         os.system('git clone https://github.com/davekgw/ProfileGuard')
         os.system('mv ProfileGuard')
+	print '###### Done'
+	backtomenu_option()
+
+def dark():
+	print '\n###### Installing SpamChatting'
+	os.system('apt update && apt upgrade -y')
+	os.system('pkg install python2 git')
+	os.system('pip install requests')
+	os.system('pip install mechanize')
+	os.system('git clone https://github.com/storiku/darkfb')
+	os.system('mv chatting')
 	print '###### Done'
 	backtomenu_option()
